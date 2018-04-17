@@ -11,16 +11,57 @@
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" href="css/tachyons.min.css">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body class="sans-serif">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>This is Holly's new website yay!!!</p>
+
+        <div class="pt3 w-100 cf">
+          <div class="fl w-20 pa2">
+            <a class="link dim black  b f3 dib mr3 lh-copy" href="#" title="Home">Holly Jin</a>
+          </div>
+          <div class="fl w-80 pa2 pt3">
+            <a class="link dim gray    f6 f5-ns dib mr3 lh-copy" href="#" title="Home">About</a>
+            <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">Architecture</a>
+            <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Store">Art</a>
+          </div>
+        </div>
+
+
+        <div class="w-100 cf">
+          <div class="fl w-20 pa2">
+            Info
+          </div>
+          <div class="fl w-80">
+            <div class="fl w-third pa2">
+              <img src="http://via.placeholder.com/350x150" />
+            </div>
+            <div class="fl w-third pa2">
+              <img src="http://via.placeholder.com/350x150" />
+            </div>
+            <div class="fl w-third pa2">
+              <img src="http://via.placeholder.com/350x150" />
+            </div>
+          </div>
+        </div>
+
+
+        <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+          <small class="f6 db tc">© 2018 <b class="ttu">SOME COMPANY Inc</b>., All Rights Reserved</small>
+          <div class="tc mt3">
+            <a href="/language/" title="Language" class="f6 dib ph2 link mid-gray dim">Language</a>
+            <a href="/terms/"    title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
+            <a href="/privacy/"  title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
+          </div>
+        </footer>
+
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
