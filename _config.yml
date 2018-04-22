@@ -20,7 +20,7 @@ title                    : "Holly Jin"
 title_separator          : " | "
 name                     : "Holly Jin"
 description              : "Personal website of Holly Jin"
-url                      : "holly6116.github.io"
+url                      : # "holly6116.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/holly6116/holly6116.github.com"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Holly Jin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/img/head.jpg"
   bio              : "Art | Architecture | Design"
   location         : "Boston"
   email            :
@@ -116,13 +116,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "hongyijin"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "hj_hollyjin"
   vine             :
   weibo            :
   xing             :
